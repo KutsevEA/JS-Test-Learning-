@@ -1,13 +1,17 @@
-function getCommonElements(array1, array2) {
+function includes(array, value) {
   // Change code below this line
-    
-    const arrayTotal = [];
-
-    for (let i = 0; i < array1.length; i += 1) {
-        if ()
+    let x = false;
+  for (let i = 0; i < array.length; i += 1) {
+      if (array[i] === value) {
+          console.log(array[i]);
+          x = (array[i] === value);
+          return x
     }
     
+  }
+    return x;
   // Change code above this line
 }
 
-getCommonElements([1, 2, 3], [2, 1, 17, 19]);
+console.log(includes([1, 2, 3, 4, 5], 3));
+console.log(includes(['apple', 'plum', 'pear', 'orange'], 'kiwi'));
