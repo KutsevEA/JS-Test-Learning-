@@ -3,13 +3,14 @@ const apartment = {
   rating: 4,
   price: 2153,
 };
-const keys = [];
 const values = [];
-// Change code below this line
-for (const key in apartment) {
-keys.push(key);
-values.push(apartment[key]);
-}
-
-
 console.log(values);
+// Change code below this line
+const keys = Object.keys(apartment);
+
+for (const key of keys) {
+  if (apartment.hasOwnProperty(key) === true) {
+    values.push(apartment[key]);
+    console.log(values);
+  }
+}
