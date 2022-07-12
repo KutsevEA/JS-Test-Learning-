@@ -184,13 +184,6 @@
 // );
 // console.log(atTheOldToad.getPotions());
 
-
-
-
-
-
-
-
 // function getCommonElements(firstArray, secondArray) {
 //   const commonElements = [];
 //   // Change code below this line
@@ -198,24 +191,15 @@
 //   firstArray.forEach(function (element) {
 //     if (secondArray.includes(element)) { commonElements.push(element) };
 //   });
-  
-    
 
 //     return commonElements;
 
 //     // Change code above this line
 //   }
 
-
-
-
 //   console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]));
 
 //   console.log(getCommonElements([1, 2, 3], [2, 4]));
-
-
-
-
 
 // function changeEven(numbers, value) {
 //   // Change code below this line
@@ -231,8 +215,7 @@
 //   // Change code above this line
 // }
 
-
-// console.log(changeEven([1, 2, 3, 4, 5], 10)); 
+// console.log(changeEven([1, 2, 3, 4, 5], 10));
 // // возвращает новый массив[1, 12, 3, 14, 5]
 
 // const users = [
@@ -315,7 +298,6 @@
 //   },
 // ];
 
-
 // console.log(users);
 
 // // Change code below this line
@@ -324,20 +306,15 @@
 //   return users.map((user) => user.name);
 // ;
 // }
-  
+
 // // console.log(getUserNames);
 // //   // Change code above this line
 // // console.log(users);
-
 
 // // const getUserNames = users => users.map(user => user.name);
 
 // console.log(getUserNames(users));
 // console.log(users);
-
-
-
-
 
 // const books = [
 //   {
@@ -366,13 +343,10 @@
 // const topRatedBooks = books.filter((book) => book.rating >= MIN_RATING);
 // const booksByAuthor = books.filter((book) => (book.author === AUTHOR));
 
-
 // console.log(topRatedBooks);
 // console.log(booksByAuthor);
 
-
-
-// const users = 
+// const users =
 // [
 //   {
 //     name: "Moore Hensley",
@@ -439,18 +413,11 @@
 //   },
 // ];
 
-
-
-
 // const getUsersWithEyeColor = (users, color) => {
 //   return users.filter((user) => user.eyeColor === color);
 // };
 
-
 // console.log(getUsersWithEyeColor(users, "blue"));
-
-
-
 
 // const users = [
 //   {
@@ -524,8 +491,6 @@
 //     age: 39,
 //   },
 // ];
-
-
 
 // const getUsersWithAge = (users, minAge, maxAge) => {
 //  return users.filter((user) => user.age > minAge & user.age < maxAge);
@@ -533,8 +498,6 @@
 
 // console.log(getUsersWithAge(users, 20, 30));
 
-
-
 // const users = [
 //   {
 //     name: "Moore Hensley",
@@ -608,18 +571,12 @@
 //   },
 // ];
 
-
 // const getUsersWithFriend = (users, friendName) => {
 //   return users.filter((user) => user.friends.find((element) => element === friendName));
-
-
 
 //   // return users.filter((user) =>
 //   //   user.friends.flatMap((element) => element === friendName)
 //   // );
-
-
-
 
 //   // return users.filter(user =>
 //   // (user.flatMap((element) => element.friends === friendName))
@@ -628,8 +585,7 @@
 
 // console.log(getUsersWithFriend(users, "Briana Decker"));
 
-
-// const users = 
+// const users =
 // [
 //   {
 //     name: "Moore Hensley",
@@ -703,8 +659,6 @@
 //   },
 //   ];
 
-
-
 // const getFriends = (users) => {
 //   const x = users.flatMap((user) => user.friends);
 //   console.log(x);
@@ -717,10 +671,9 @@
 
 // //  return users.flatMap((user) => user.friends.filter(
 // //   (course, index, array) => array.indexOf(course) === index
-// // ));  
+// // ));
 
 // };
-  
 
 // console.log(getFriends(users));
 
@@ -797,19 +750,14 @@
 //   },
 // ];
 
-
 // // Change code below this line
 // const getActiveUsers = (users) => {
 //    return users.filter(user => user.isActive === true)
-   
+
 // };
 // // Change code above this line
 
-
 // console.log(getActiveUsers(users));
-
-
-
 
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
@@ -829,8 +777,6 @@
 
 // const eachElementInThirdIsEven = thirdArray;
 // const eachElementInThirdIsOdd = thirdArray;
-
-
 
 // console.log(eachElementInFirstIsEven);
 // console.log(eachElementInFirstIsOdd);
@@ -903,14 +849,11 @@
 //   },
 //   ];
 
-
 // const isAnyUserActive = (users) => {
 //   return users.some((user) => user === true);
 // };
 
 // console.log(isAnyUserActive(users));
-
-
 
 // const players = {
 //   mango: 1270,
@@ -928,9 +871,7 @@
 // // Change code above this line
 // const averagePlayTime = totalPlayTime / playtimes.length;
 
-
 // console.log(totalPlayTime);
-
 
 // const players = [
 //   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
@@ -942,10 +883,7 @@
 
 // const totalAveragePlaytimePerGame = players.reduce((total, player) => total + (player.playtime / player.gamesPlayed), 0);
 
-
 // console.log(totalAveragePlaytimePerGame);
-
-
 
 // const users =
 // [
@@ -1014,21 +952,16 @@
 //   },
 //   ];
 
-
 //   const calculateTotalBalancee = users.reduce((total, user) => total + user.balance, 0);
 // ;
 //   console.log(calculateTotalBalancee);
 
 // // Change code below this line
 // const calculateTotalBalance = (users) => {return users.reduce((total, user) => total + user.balance, 0); };
-   
+
 // // Change code above this line
 
-
-
-
 //   console.log(calculateTotalBalance(users));
-
 
 // const users = [
 //   {
@@ -1096,7 +1029,6 @@
 //   },
 // ];
 
-
 // for (user of users) {
 //   console.log(user.friends.length);
 // }
@@ -1104,12 +1036,10 @@
 // // Change code below this line
 // const getTotalFriendCount = users => { return users.reduce((total, user) => total + user.friends.length, 0);
 
-   
 // };
 // // Change code above this line
 
 // console.log(getTotalFriendCount(users));
-
 
 // const books = [
 //   {
@@ -1145,7 +1075,6 @@
 //   a.rating - b.rating);
 
 // const sortedByDescentingRating = [...books].sort((a, b) => b.rating - a.rating);
-
 
 // const users =
 
@@ -1217,18 +1146,16 @@
 
 //   // Change code below this line
 // const sortByAscendingBalance = users => {return [...users].sort((a, b) => a.balance - b.balance);
-   
+
 // };
 // // Change code above this line
 
-
 // // console.log(sortByAscendingBalance(users));
-
 
 // // // Change code below this line
 // const sortByDescendingFriendCount = users => {
 //   return [...users].sort((a, b) => b.friends.length - a.friends.length);
-   
+
 // };
 // // // Change code above this line
 // // console.table(users);
@@ -1242,7 +1169,6 @@
 
 // console.table(users);
 // console.table(sortByName(users));
-
 
 // const users = [
 //   {
@@ -1321,18 +1247,17 @@
 //     .sort((a, b) => a.friends.length - b.friends.length)
 //     .map((user) => user.name)
 //     .filter((course, index, array) => array.indexOf(course) === index);
-   
+
 // };
 // // Change code above this line
 
 // // Дополни функцию getNamesSortedByFriendCount(users) так,
-// //   чтобы она возвращала массив имён пользователей 
+// //   чтобы она возвращала массив имён пользователей
 // //   отсортированный по возрастанию количества их друзей(свойство friends).
-
 
 // console.log(getNamesSortedByFriendCount(users));
 
-// // ['Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Sheree Anthony', 
+// // ['Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Sheree Anthony',
 // // 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson']`
 
 // const users =
@@ -1422,9 +1347,8 @@
 // console.log(getSortedFriends(users));
 
 // // Дополни функцию getSortedFriends(users) так,
-// //   чтобы она возвращала массив уникальных имён друзей(свойство friends) 
+// //   чтобы она возвращала массив уникальных имён друзей(свойство friends)
 // //   отсортированный по алфавиту.
-
 
 // const users = [
 //   {
@@ -1502,10 +1426,9 @@
 //   return users
 //     .filter((user) => user.gender === gender)
 //     .reduce((total, user) => total + user.balance, 0);
-   
+
 // };
 // // Change code above this line
-
 
 // // Дополни функцию getTotalBalanceByGender(users, gender)
 // // так, чтобы она возвращала общий баланс пользователей(свойство balance),
@@ -1513,11 +1436,6 @@
 
 // console.log(getTotalBalanceByGender(users, "male"));
 // console.log(getTotalBalanceByGender(users, "female"));
-
-
-
-
-
 
 // const pizzaPalace = {
 //   pizzas: ["Supercheese", "Smoked", "Four meats"],
@@ -1537,10 +1455,8 @@
 //   // Change code above this line
 // };
 
-
 // console.log(pizzaPalace.checkPizza("Supercheese"));
 // console.log(pizzaPalace.order("Supercheese"));
-
 
 // const customer = {
 //   username: "Mango",
@@ -1573,9 +1489,6 @@
 // console.log(customer.getBalance()); // 19750
 // console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
 
-
-
-
 // const historyService = {
 //   orders: [
 //     { email: "jacob@hotmail.com", dish: "Burrito" },
@@ -1601,36 +1514,30 @@
 //   // Change code above this line
 // };
 
-
 // console.log(historyService.getOrdersByEmail("solomon@topmail.net"));
 
 // console.log(historyService.getEmails());
-
-
 
 // class Storage {
 //   constructor(items) {
 //     this.items = items
 //   }
 
-
 //   getItems() {
 //     return this.items;
 //   }
-  
 
 //   addItem(newItem) {
 //     return this.items.push(newItem);
-//   }; 
+//   };
 
 //   removeItem(itemToRemove) {
 
 //     this.items.splice(this.items.indexOf(itemToRemove), 1);
 //     return this.items
 
-    
 //   };
-  
+
 // }
 
 // // Change code above this line
@@ -1640,10 +1547,6 @@
 // console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 // storage.removeItem("Prolonger");
 // console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
-
-
-
-
 
 // class StringBuilder {
 //   constructor(initialValue) {
@@ -1667,7 +1570,6 @@
 //   }
 // }
 
-
 // // Change code above this line
 // const builder = new StringBuilder(".");
 // console.log(builder.getValue()); // "."
@@ -1679,7 +1581,6 @@
 // console.log(builder.getValue()); // "=^.^="
 
 // console.log(builder.value);
-
 
 // class Car {
 //   // Change code below this line
@@ -1702,8 +1603,6 @@
 
 //   // Change code above this line
 // }
-
-
 
 // class Storage {
 //   // Change code below this line
@@ -1733,7 +1632,6 @@
 // console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 // storage.removeItem("Prolonger");
 // console.log(storage.getItems()); // ["Нанитоиды", "Антигравитатор", "Droid"]
-
 
 // class Car {
 //   // Change code below this line
@@ -1765,7 +1663,6 @@
 // audi.price = 51000;
 // console.log(audi.price); // 49000
 
-
 // class Car {
 //   static #MAX_PRICE = 50000;
 //   // Change code below this line
@@ -1790,13 +1687,6 @@
 // console.log(Car.checkPrice(audi.price)); // "Success! Price is within acceptable limits"
 // console.log(Car.checkPrice(bmw.price)); // "Error! Price exceeds the maximum"
 
-
-
-
-
-
-
-
 class User {
   email;
 
@@ -1816,7 +1706,7 @@ class Admin extends User {
   // Change code below this line
 
   blacklist(email) {
-    return this.blacklistedEmails.push(email); 
+    return this.blacklistedEmails.push(email);
   }
 
   isBlacklisted(email) {
@@ -1828,7 +1718,7 @@ class Admin extends User {
     SUPERUSER: "superuser",
   };
 
-  constructor({ email, accessLevel, blacklistedEmails = [], }) {
+  constructor({ email, accessLevel, blacklistedEmails = [] }) {
     super(email);
     this.accessLevel = accessLevel;
     this.blacklistedEmails = blacklistedEmails;
